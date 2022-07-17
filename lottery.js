@@ -113,7 +113,7 @@ function lolChe(){
 }
 
 function talking(){
-    randomNum = Math.ceil(Math.random() * 10);
+    randomNum = Math.ceil(Math.random() * 11);
     if(randomNum==10){
         lab.innerText = `\n으음 종은이는 어디갔나?`
     }else if(randomNum==1){
@@ -134,7 +134,7 @@ function talking(){
         lab.innerText = `\n으음 그래 들어가봐.`
     }else if(randomNum==9){
         lab.innerText = `\n으음 세종이.`
-    }else if(randomNum==10){
+    }else if(randomNum==11){
         lab.innerText = `\n으음 파악파악.`
     }
 }
