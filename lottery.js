@@ -141,4 +141,3 @@ function talking(){
 
 userBtn.addEventListener('click',lolChe);
 cleanBtn.addEventListener('click',talking);
-sysNum();
