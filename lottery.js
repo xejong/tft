@@ -113,7 +113,7 @@ function lolChe(){
 }
 
 function talking(){
-    randomNum = Math.ceil(Math.random() * 11);
+    randomNum = Math.ceil(Math.random() * 13);
     if(randomNum==10){
         lab.innerText = `\n으음 종은이는 어디갔나?`
     }else if(randomNum==1){
@@ -135,7 +135,25 @@ function talking(){
     }else if(randomNum==9){
         lab.innerText = `\n으음 세종이.`
     }else if(randomNum==11){
-        lab.innerText = `\n으음 파악파악.`
+        lab.innerText = `\n으음 파악파악`
+    }else if(randomNum==12){
+        lab.innerText = `\n으음 조련사를 하면 하이머딩거가 빡칠거야.`
+    }else if(randomNum==13){
+        lab.innerText = `\n으음 사이펜은 거결을가면 좋다네.`
+    }else if(randomNum==14){
+        lab.innerText = `\n으음 신비술사를 왜 추천하냐고?`
+    }else if(randomNum==15){
+        lab.innerText = `\n으음메.`
+    }else if(randomNum==16){
+        lab.innerText = `\n으음 자꾸 왜 말을거는가?`
+    }else if(randomNum==17){
+        lab.innerText = `\n으음 더 할말은 없다네.`
+    }else if(randomNum==18){
+        lab.innerText = `\n으음 그렇게하게.`
+    }else if(randomNum==19){
+        lab.innerText = `\n이번엔 으음을 뒤에넣겠네 으음.`
+    }else if(randomNum==20){
+        lab.innerText = `\n으음.`
     }
 }
 
